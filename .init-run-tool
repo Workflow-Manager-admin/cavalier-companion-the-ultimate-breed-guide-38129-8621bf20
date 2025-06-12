@@ -1,0 +1,4 @@
+{
+    "command": "npm start -- --port <port>",
+    "working_directory": "/home/kavia/workspace/code-generation/cavalier-companion-the-ultimate-breed-guide-38129-8621bf20/cavalier_companion_breed_guide"
+}

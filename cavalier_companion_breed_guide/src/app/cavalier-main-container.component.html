@@ -1,0 +1,26 @@
+<div class="cavalier-container">
+  <div class="header-image-wrapper">
+    <img class="header-image" [src]="breedHeaderImg" alt="Cavalier King Charles Spaniel - header image" />
+    <h1 class="main-title">
+      Cavalier Companion
+      <span class="guide-subtitle">The Ultimate Breed Guide</span>
+    </h1>
+  </div>
+  <div class="sections">
+    <section 
+      class="feature-section"
+      *ngFor="let section of sections">
+      <div class="icon-row">
+        <img class="section-icon-image" [src]="section.image" [alt]="section.alt" />
+        <!-- <span class="section-emoji">{{ section.icon }}</span> -->
+      </div>
+      <h2 class="section-title">{{ section.title }}</h2>
+      <p class="section-content">{{ section.content }}</p>
+    </section>
+  </div>
+  <div class="cta-area">
+    <button class="accent-cta-btn">
+      Learn More and Find Your Cavalier!
+    </button>
+  </div>
+</div>
